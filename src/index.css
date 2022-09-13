@@ -1,3 +1,9 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
 .calculatorContainer {
   width: 40%;
   position: absolute;
@@ -7,12 +13,12 @@
 
 .calculatorResult {
   text-align: right;
-  height: 6vh;
+  height: 7vh;
   background-color: rgb(83, 83, 83);
   color: #fff;
   font-size: 50px;
   font-weight: 900;
-  padding: 10px 20px 0;
+  padding: 10px 20px 10px;
 }
 
 .calculatorButtonsContainer {
@@ -45,4 +51,31 @@ button {
 
 .operatorsGroup > button {
   background-color: rgb(246, 123, 0);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: rgb(141, 141, 141);
+  color: #fff;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 0;
+  text-decoration: none;
+}
+
+main {
+  position: relative;
+  top: 80px;
+  padding: 0 50px;
 }
