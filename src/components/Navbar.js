@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -7,13 +7,13 @@ function Navbar() {
       <h2 className="Logo">Math Magician</h2>
       <ul>
         <li>
-          <Link style={{ textDecoration: 'none', color: '#fff' }} to="/">Home</Link>
+          <NavLink end activeClassName="active" style={{ textDecoration: 'none', color: '#fff' }} to="/">Home</NavLink>
         </li>
         <li>
-          <Link style={{ textDecoration: 'none', color: '#fff' }} to="/calculator">Calculator</Link>
+          <NavLink activeClassName="active" style={{ textDecoration: 'none', color: '#fff' }} to="/calculator">Calculator</NavLink>
         </li>
         <li>
-          <Link style={{ textDecoration: 'none', color: '#fff' }} to="/quote">Quote</Link>
+          <NavLink activeClassName="active" style={{ textDecoration: 'none', color: '#fff' }} to="/quote">Quote</NavLink>
         </li>
       </ul>
     </nav>
