@@ -6,7 +6,7 @@
 
 
 ### live demo
-
+[Netlify live demo](https://aquamarine-platypus-bc7eb5.netlify.app/)
 
 
 ##### For validation detection using Webhint Run
